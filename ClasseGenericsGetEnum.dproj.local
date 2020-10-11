@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/08/28 23:18:55.000.559,=C:\Users\Igor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/10/11 15:06:34.353,=C:\Users\Igor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/10/11 15:09:44.519,C:\Users\Igor\Desktop\Uteis\Projetos Delphi\ClasseGenericaGetEnum\ClasseGenericsGetEnum\Frm.Principal.dfm=C:\Users\Igor\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/10/11 15:09:44.519,C:\Users\Igor\Desktop\Uteis\Projetos Delphi\ClasseGenericaGetEnum\ClasseGenericsGetEnum\Frm.Principal.pas=C:\Users\Igor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/10/11 15:10:03.089,C:\Users\Igor\Desktop\Uteis\Projetos Delphi\ClasseGenericaGetEnum\ClasseGenericsGetEnum\ClasseGenericsGetEnem.dproj=C:\Users\Igor\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/10/11 15:10:15.151,C:\Users\Igor\Desktop\Uteis\Projetos Delphi\ClasseGenericaGetEnum\ClasseGenericsGetEnum\ClasseGenericsGetEnum.dproj=C:\Users\Igor\Desktop\Uteis\Projetos Delphi\ClasseGenericaGetEnum\ClasseGenericsGetEnum\ClasseGenericsGetEnem.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

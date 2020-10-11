@@ -1,0 +1,58 @@
+unit Frm.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TEstadoCivil = (Solteiro, casado, viuvo);
+
+  TFormaPagamento = (Dinheiro, Cartao, Cheque, vale);
+
+  TEnumConverter<T> = class
+    class procedure AlimentaCombo(pList: TStrings);
+
+  end;
+
+  TFrmPrincipal = class(TForm)
+    btnAlimentaCombo: TButton;
+    ComboBox1: TComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+uses
+  System.TypInfo;
+
+{$R *.dfm}
+{ TEnumConverter<T> }
+
+class procedure TEnumConverter<T>.AlimentaCombo(pList: TStrings);
+var
+  vValorDoEnumerado: String;
+  i, vPosicao: Integer;
+
+begin
+  // Converte meu enumerado passado como parametro e alimenta a list do ComboBox;
+  i := 0;
+
+  repeat
+    vValorDoEnumerado := GetEnumName(TypeInfo(T), i);
+    // Passa o enum e a posição;
+    vPosicao := GetEnumValue(TypeInfo(T), vValorDoEnumerado);
+
+  until (vPosicao < 0);
+
+end;
+
+end.

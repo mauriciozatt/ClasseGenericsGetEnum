@@ -1,0 +1,31 @@
+unit Frm.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TEstadoCivil = (Solteiro, casado, viuvo);
+
+  TFormaPagamento = (Dinheiro, Cartao, Cheque, vale);
+
+  TFrmPrincipal = class(TForm)
+    btnAlimentaCombo: TButton;
+    ComboBox1: TComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+end.
